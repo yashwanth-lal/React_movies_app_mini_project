@@ -1,0 +1,136 @@
+* {
+  font-family: Roboto;
+}
+.sendPara{
+    cursor: pointer;
+}
+.successMsg {
+  background-color: #d74f4f;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150%;
+  translate: -29px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-button {
+  height: 30px;
+  width: 60px;
+  color: white;
+  background-color: black;
+  margin-bottom: 3px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #e50914;
+  border-radius: 4px;
+}
+.trigger-button {
+  color: white;
+  width: 80px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #e50914;
+  border-radius: 4px;
+}
+.message_box,
+.email_from {
+  color: black;
+}
+
+.sendIcon {
+  height: 28px;
+  width: 29px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+.sendEmailButton {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgb(3, 3, 3);
+  padding: 25px;
+  border-radius: 7px;
+}
+
+.contact__form input,
+.contact__form textarea {
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  resize: vertical;
+  outline: none;
+  box-sizing: content-box;
+  border-bottom: solid 3px transparent;
+  margin: 5px 0;
+}
+
+.contact__form label {
+  font-weight: 600;
+}
+/*      mobile view CSS =========================================================      */
+
+@media screen and (max-width: 575px) {
+  .successMsg {
+    background-color: #d74f4f;
+    height: 66vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 87%;
+    text-align: center;
+    translate: 23px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .message_box,
+  .email_from {
+    color: black;
+    width: 90%;
+  }
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgb(3, 3, 3);
+    padding: 25px;
+    border-radius: 7px;
+  }
+  .closeBtnDiv {
+    width: 100%;
+  }
+  .close-button {
+    height: 30px;
+    width: 60px;
+    margin-left: 10%;
+    color: white;
+    background-color: #e50914;
+
+    margin-bottom: 3px;
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+    background-color: #e50914;
+    border-radius: 4px;
+  }
+}

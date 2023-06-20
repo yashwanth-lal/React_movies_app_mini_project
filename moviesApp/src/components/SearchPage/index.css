@@ -1,0 +1,150 @@
+.searchPageOuter {
+  background-color: black;
+  min-height: 100vh;
+
+  overflow: none;
+  width: 100%;
+}
+.searchedMovies {
+  width: 17vw;
+  height: 25vh;
+  transition: all 0.3s;
+
+  transform: scale(1);
+  border-radius: 10px;
+  margin: 20px;
+}
+.searchedMovies:hover {
+  transform: scale(1.1);
+}
+.load {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.searchedMoviesDiv {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10%;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.searchedOuter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.noMoviesDiv {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchFailureOuter {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchFailImage {
+  margin-top: 50px;
+}
+.searchTryAgainButton {
+  margin-top: 20px;
+  font-size: 12px;
+  color: black;
+  width: 80px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: white;
+  border-radius: 4px;
+}
+/*      mobile view CSS =========================================================      */
+
+@media screen and (max-width: 575px) {
+.searchPageOuter {
+  background-color: black;
+  min-height: 100vh;
+
+  overflow: none;
+  width: 100%;
+}
+.searchedMovies {
+  width: 25vw;
+  height: 20vh;
+  transition: all 0.3s;
+
+  transform: scale(1);
+  border-radius: 10px;
+  margin: 10px;
+}
+.searchedMovies:hover {
+  transform: scale(1.1);
+}
+.load {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.searchedMoviesDiv {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10%;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-top:100px;
+
+}
+.searchedOuter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.noMoviesDiv {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchFailureOuter {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchFailImage {
+  margin-top: 50px;
+  
+}
+.searchTryAgainButton {
+  margin-top: 20px;
+  font-size: 12px;
+  color: black;
+  width: 80px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: white;
+  border-radius: 4px;
+}
+.noMoviesImage{
+    width: 75%;
+    height: 40vh;
+    margin-bottom: 15px;
+}
+}

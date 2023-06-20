@@ -1,0 +1,177 @@
+/*Double tap to SELECT ALL and COPY ALL*/
+._headerOuterDivMobile {
+  display: none;
+}
+._headerOuterDiv {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 40px;
+  position: fixed;
+  width: 100%;
+  background: rgba(19, 19, 19, 0.3);
+  z-index: 3;
+  height: 15vh;
+}
+._logoLinkDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  align-items: center;
+}
+._appLogoHeader {
+}
+
+._headerHomePara {
+  margin-left: 10px;
+  color: white !important;
+}
+
+._headerPopularPara {
+  color: white !important;
+  margin-left: 20px;
+}
+.header2Ul {
+  display: flex;
+}
+._accountSearchDiv {
+  display: flex;
+  align-items: center;
+}
+
+._searchIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  background-color: #272626;
+  translate: 10px;
+}
+.searchBtn {
+  height: 35px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 2px;
+  background-color: #272626;
+}
+.inputEl {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+._inputSearchIconDiv {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  background-color: #131313;
+}
+
+._avatarImg {
+  margin-right: 20px;
+}
+/*      mobile view CSS =========================================================      */
+
+@media screen and (max-width: 575px) {
+  ._headerOuterDiv {
+    display: none;
+  }
+  /*Double tap to SELECT ALL and COPY ALL*/
+  ._headerOuterDivMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 40px;
+    position: fixed;
+    width: 100%;
+    background: rgba(19, 19, 19, 0.3);
+    z-index: 3;
+    height: 15vh;
+  }
+
+  ._headerLogoLinkDivMobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  ._appLogoHeaderMobile {
+    width: 90px;
+    height: 20px;
+  }
+
+  ._searchIconAndHamMobile {
+    display: flex;
+    align-items: center;
+  }
+
+  ._inputSearchIconDivMobile {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    background-color: #131313;
+  }
+
+  ._inputElMobile {
+    width: 130px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+  }
+
+  ._searchBtnMobile {
+    height: 35px;
+    width: 40px;
+    padding-left: 8px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 2px;
+    background-color: #272626;
+    margin-left: 2px;
+  }
+
+  ._searchIconMobile {
+    text-align: center;
+    margin-right: 30px;
+    padding: 0%;
+    height: 30px;
+    width: 20px;
+  }
+
+  ._navIconMobile {
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    translate: 12px;
+    cursor: pointer;
+  }
+
+  ._header1UlMobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background: rgba(19, 19, 19, 0.8);
+    padding: 7px;
+    border-radius: 5px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,213 @@
+/*Double tap to SELECT ALL and COPY ALL*/
+@media screen and (min-width: 576px) {
+  .loginPageBackgroundOuter {
+    background: linear-gradient(
+        116.64deg,
+        rgba(0, 0, 0, 0.8) 0.46%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url('https://res.cloudinary.com/yash9676/image/upload/v1686221756/moviesAppMiniProjectCCBP/netfilx_1_backgroundImage_fgav5l.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .appLogo {
+    padding: 30px;
+  }
+  .loginFormOuter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .loginFormDiv {
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #0c0b10;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+
+  .loginHeading {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .loginFormEl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .loginUsernameLabelEl {
+    color: white;
+    text-align: left;
+    width: 90%;
+
+    font-size: 10px;
+  }
+
+  .loginUserNameInputEl {
+    outline: none;
+    height: 30px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: none;
+    background: #333333;
+    border-radius: 2px;
+  }
+
+  .loginPasswordLabelEl {
+    color: white;
+    text-align: left;
+    width: 90%;
+    font-size: 10px;
+  }
+
+  .loginPasswordInputEl {
+    height: 30px;
+    width: 90%;
+    border: none;
+
+    margin-top: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background: #333333;
+    border-radius: 2px;
+  }
+
+  .loginErrorMessageEl {
+    color: #dc2626;
+    text-align: left;
+    width: 90%;
+  }
+
+  .loginBtnEl {
+    background-color: #dc2626;
+    color: white;
+    width: 90%;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+  }
+}
+/*      mobile view CSS =========================================================      */
+
+@media screen and (max-width: 575px) {
+  .loginPageBackgroundOuter {
+    background-color: black;
+    height: 100vh;
+  }
+
+  .appLogo {
+    padding: 30px;
+  }
+  .loginFormOuter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .loginFormDiv {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: black;
+    
+    border-radius: 10px;
+  }
+
+  .loginHeading {
+    color: white;
+    text-align: start;
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .loginFormEl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .loginUsernameLabelEl {
+    color: white;
+    text-align: left;
+    width: 90%;
+
+    font-size: 15px;
+  }
+
+  .loginUserNameInputEl {
+    outline: none;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: none;
+    background: #333333;
+    border-radius: 2px;
+  }
+
+  .loginPasswordLabelEl {
+    color: white;
+    text-align: left;
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .loginPasswordInputEl {
+    height: 40px;
+    width: 100%;
+    border: none;
+
+    margin-top: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background: #333333;
+    border-radius: 2px;
+  }
+
+  .loginErrorMessageEl {
+    color: #dc2626;
+    text-align: left;
+    width: 90%;
+  }
+
+  .loginBtnEl {
+    background-color: #dc2626;
+    color: white;
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+  }
+}

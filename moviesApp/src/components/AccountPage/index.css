@@ -1,0 +1,98 @@
+.accountPageOuter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.overAll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.accountDetailsDiv {
+  min-height: 55vh;
+  width: 80vw;
+
+  position: relative;
+  top: 20vh;
+}
+.accountHeading {
+  color: black;
+}
+
+.memberShipDiv {
+  display: flex;
+}
+
+.memberShipPara {
+  color: #94a3b8;
+  width: 100px;
+
+  margin-right: 20px;
+}
+
+.memberShipDetailsDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.memberShipUserPara {
+  color: black;
+}
+
+.memberShipPassword {
+  color: #94a3b8;
+}
+
+.planDetailsDiv {
+  display: flex;
+}
+
+.planDetailsPara {
+  color: #94a3b8;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.planDetailsDiv2 {
+  display: flex;
+}
+
+.premiumPara {
+  color: black;
+}
+
+.ultraHdPara {
+  font-weight: 500;
+  color: black;
+  border: 1px solid black;
+  margin-left: 10px;
+  padding: 3px;
+}
+
+.horLine {
+  background: #cbd5e1;
+  border-radius: 10px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.btnDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.logoutBtn {
+  color: white;
+  width: 80px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #e50914;
+  border-radius: 4px;
+}

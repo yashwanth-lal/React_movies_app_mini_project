@@ -1,0 +1,300 @@
+@media screen and (min-width: 576px) {
+  .homeOuterDiv {
+    background-color: rgb(25 24 24);
+  }
+  .slider-container {
+    padding: 15px;
+    width: 70%;
+    background-color: rgb(25 24 24);
+  }
+
+  .blurDiv {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 24.78%;
+    bottom: 49.92%;
+
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(24, 24, 24, 0.546875) 38.26%,
+      #181818 92.82%,
+      #181818 98.68%,
+      #181818 108.61%
+    );
+  }
+  .blurDiv2 {
+    position: absolute;
+    left: 0%;
+    right: 47.85%;
+    top: 0%;
+    bottom: 49.92%;
+
+    background: linear-gradient(
+      90.33deg,
+      #181818 -6.5%,
+      rgba(24, 24, 24, 0.6) 57.15%,
+      rgba(24, 24, 24, 0) 99.77%
+    );
+  }
+  .sliderWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .slidersOuterDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slick-slide img {
+    display: block;
+    width: 77%;
+  }
+  .trendingImage {
+    width: 25vw;
+    height: 25vh;
+
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .trendingImageLink {
+    /* margin: 20px; */
+  }
+  .originalImage {
+    width: 25vw;
+    height: 25vh;
+
+    border-radius: 10px;
+    margin: 20px;
+    transition: all 0.3s;
+
+    transform: scale(1);
+  }
+  .originalImage:hover {
+    transform: scale(1.1);
+  }
+
+  .slick-prev:before {
+    content: '<';
+    font-weight: 600;
+    color: white;
+    font-size: 42px;
+  }
+  .slick-next:before {
+    content: '>';
+    font-weight: 600;
+    color: white;
+    font-size: 42px;
+  }
+
+  .trendingNowPara {
+    color: white;
+
+    align-self: flex-end;
+    width: 82%;
+  }
+  .originalsPara {
+    color: white;
+    align-self: flex-end;
+    width: 82%;
+  }
+  .loadRandomPoster {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .loadTrending {
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .loadOriginals {
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeFailureOuter {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeFailImage {
+    margin-bottom: 10px;
+  }
+  .homeTryAgainButton {
+    margin-top: 20px;
+    font-size: 12px;
+    color: black;
+    width: 80px;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: white;
+    border-radius: 4px;
+  }
+}
+/*      mobile view CSS =========================================================      */
+
+@media screen and (max-width: 575px) {
+  .homeOuterDiv {
+    background-color: rgb(25 24 24);
+    width: 100%;
+    
+  }
+  .slider-container {
+    padding: 15px;
+    width: 80%;
+    background-color: rgb(25 24 24);
+  }
+
+  .blurDiv {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 24.78%;
+    bottom: 45.92%;
+
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(24, 24, 24, 0.546875) 38.26%,
+      #181818 92.82%,
+      #181818 98.68%,
+      #181818 108.61%
+    );
+  }
+  .blurDiv2 {
+    position: absolute;
+    left: 0%;
+    right: 47.85%;
+    top: 0%;
+    bottom: 45.92%;
+
+    background: linear-gradient(
+      90.33deg,
+      #181818 -6.5%,
+      rgba(24, 24, 24, 0.6) 57.15%,
+      rgba(24, 24, 24, 0) 99.77%
+    );
+  }
+  .sliderWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .slidersOuterDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slick-slide img {
+    display: block;
+    width: 77%;
+  }
+  .trendingImage {
+    width: 25vw;
+    height: 25vh;
+
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .trendingImageLink {
+    /* margin: 20px; */
+  }
+  .originalImage {
+    width: 25vw;
+    height: 15vh;
+
+    border-radius: 10px;
+    margin: 20px;
+    transition: all 0.3s;
+
+    transform: scale(1);
+  }
+  .originalImage:hover {
+    transform: scale(1.1);
+  }
+
+  .slick-prev:before {
+    content: '<';
+    font-weight: 600;
+    color: white;
+    font-size: 42px;
+  }
+  .slick-next:before {
+    content: '>';
+    font-weight: 600;
+    color: white;
+    font-size: 42px;
+  }
+
+  .trendingNowPara {
+    color: white;
+    font-size: 20px;
+    align-self: flex-end;
+    width: 82%;
+  }
+  .originalsPara {
+    color: white;
+    align-self: flex-end;
+    width: 82%;
+    font-size: 20px;
+  }
+  .loadRandomPoster {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .loadTrending {
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .loadOriginals {
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeFailureOuter {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeTryAgainButton {
+    margin-top: 20px;
+    font-size: 12px;
+    color: black;
+    width: 80px;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: white;
+    border-radius: 4px;
+  }
+}

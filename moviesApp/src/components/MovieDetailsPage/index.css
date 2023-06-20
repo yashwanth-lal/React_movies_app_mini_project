@@ -1,0 +1,381 @@
+@media screen and (min-width: 576px) {
+  .makingMidDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .movieDOuter {
+    background-color: black;
+    
+  }
+  .detailsLoader {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .similarImages {
+    width: 17vw;
+    height: 29vh;
+    border-radius: 10px;
+    transition: all 0.3s;
+
+    transform: scale(1);
+    margin-right: 15px;
+  }
+  .similarImages:hover {
+    transform: scale(1.1);
+  }
+
+  .movieDetailsBackDrop {
+    width: 100%;
+    height: 50vh;
+  }
+  .gradientDiv {
+    position: absolute;
+    left: 0%;
+    right: 47.85%;
+    top: 0%;
+    bottom: 49.92%;
+
+    background: linear-gradient(
+      90.33deg,
+      #181818 -6.5%,
+      rgba(24, 24, 24, 0.6) 57.15%,
+      rgba(24, 24, 24, 0) 99.77%
+    );
+  }
+  .gradientDiv2 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 24.78%;
+    bottom: 49.92%;
+
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(24, 24, 24, 0.546875) 38.26%,
+      #181818 92.82%,
+      #181818 98.68%,
+      #181818 108.61%
+    );
+  }
+  .movieDetailsTitlePart {
+    position: absolute;
+    left: 11.39%;
+    right: 73.4%;
+    top: 13.55%;
+    bottom: 81.79%;
+  }
+  .movieDMoreDetails {
+    display: flex;
+    justify-content: space-between;
+
+    width: 80%;
+  }
+  .movieDMoreDetailsInner {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+  }
+  .popularMoviesUlDiv {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+  }
+  .moreLikeThisDiv {
+    width: 80%;
+  }
+  .ratingCountAvgDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .budgetReleaseDateDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .movieDTitle {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .movieDRuntimeReleaseDate {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+
+    font-weight: 500;
+  }
+  .adultSpan {
+    color: white;
+    border: 1px solid white;
+    width: 40px;
+    text-align: center;
+  }
+  .movieDOverview {
+    width: 600px;
+    display: block;
+    margin-top: 10px;
+  }
+  .movieDetailsPlayButton {
+    border: none;
+    border-radius: 8px;
+    color: black;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    margin-top: 15px;
+  }
+  ul li:first-child,
+  .movieDHeads {
+    color: #94a3b8;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .movieDGenreHeading {
+    padding-left: 3px;
+
+    color: #94a3b8;
+    font-size: 18px;
+  }
+  .centerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .movieDEachGenre {
+    padding: 5px;
+  }
+  .moreDFailureOuter {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dOuter {
+    background-color: black !important;
+  }
+  .moreDAgainButton {
+    margin-top: 20px;
+    font-size: 12px;
+    color: black;
+    width: 80px;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: white;
+    border-radius: 4px;
+  }
+}
+
+/*      mobile view CSS =========================================================      */
+
+@media screen and (max-width: 575px) {
+  .dOuter {
+    background-color: black;
+  }
+  .moreLikeThisDiv {
+    width: 80%;
+    margin: 10px;
+  }
+  .moreLikeThisHead {
+    font-size: 18px;
+  }
+  .makingMidDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+  }
+  .movieDOuter {
+    background-color: black;
+  }
+  .detailsLoader {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .similarImages {
+    width: 22vw;
+    height: 18vh;
+    border-radius: 10px;
+    transition: all 0.3s;
+
+    transform: scale(1);
+    margin-right: 15px;
+    margin-top: 5px;
+  }
+  .similarImages:hover {
+    transform: scale(1.1);
+  }
+
+  .movieDetailsBackDrop {
+    width: 100vw;
+    height: 45vh;
+  }
+  .gradientDiv {
+    position: absolute;
+    left: 0%;
+    right: 47.85%;
+    top: 0%;
+    bottom: 50.92%;
+
+    background: linear-gradient(
+      90.33deg,
+      #181818 -6.5%,
+      rgba(24, 24, 24, 0.6) 57.15%,
+      rgba(24, 24, 24, 0) 99.77%
+    );
+  }
+  .gradientDiv2 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 24.78%;
+    bottom: 50.92%;
+
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(24, 24, 24, 0.546875) 38.26%,
+      #181818 92.82%,
+      #181818 98.68%,
+      #181818 108.61%
+    );
+  }
+  .movieDetailsTitlePart {
+    position: absolute;
+    left: 10.39%;
+    right: 73.4%;
+    top: 10.55%;
+    bottom: 81.79%;
+    width: 85%;
+  }
+  .movieDMoreDetails {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+  }
+  .movieDMoreDetailsInner {
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .popularMoviesUlDiv {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+  }
+
+  .ratingCountAvgDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .budgetReleaseDateDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .movieDTitle {
+    font-size: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  .movieDRuntimeReleaseDate {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 10px;
+
+    font-weight: 500;
+  }
+  .adultSpan {
+    color: white;
+    border: 1px solid white;
+    width: 40px;
+    text-align: center;
+  }
+  .movieDOverview {
+    width: 95%;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .movieDetailsPlayButton {
+    border: none;
+    border-radius: 8px;
+    color: black;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .movieDHeads {
+    color: #94a3b8;
+
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .movieDGenreHeading {
+    color: #94a3b8;
+    font-size: 12px;
+  }
+  .centerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .movieDEachGenre {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-size: 12px;
+  }
+  .moreDFailureOuter {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .moreDAgainButton {
+    margin-top: 20px;
+    font-size: 12px;
+    color: black;
+    width: 80px;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: white;
+    border-radius: 4px;
+  }
+}

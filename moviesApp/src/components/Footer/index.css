@@ -1,0 +1,50 @@
+/*Double tap to SELECT ALL and COPY ALL*/
+.footerOuter {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.footerIconsDiv {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contactUsPara {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+
+}
+
+/*      mobile view CSS =========================================================      */
+
+@media screen and (max-width:575px){
+.footerOuter {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  
+}
+
+.footerIconsDiv {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactUsPara {
+  margin-top: 15px;
+  margin-bottom: 15px;
+font-size: 18px;
+
+}
+
+}

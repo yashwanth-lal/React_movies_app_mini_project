@@ -1,0 +1,76 @@
+* {
+  color: white;
+}
+.randomPosterTextDiv {
+  z-index: 3;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 40%;
+}
+.posterOuterDiv {
+  margin: 0px;
+  padding: 0px;
+}
+
+.overViewPara {
+  font-size: 15px;
+}
+
+.posterImage {
+  width: 100%;
+  height: 50vh;
+}
+.posterPlayButton {
+  border: none;
+  border-radius: 8px;
+  color: black;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  width: 70px;
+  height: 40px;
+  margin-top: 15px;
+  background-size: cover;
+}
+/*      mobile view CSS =========================================================      */
+
+@media screen and (max-width: 575px) {
+  .randomPosterTextDiv {
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 90%;
+  }
+  .randomPosterHeadTitle{
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+  .posterOuterDiv {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .overViewPara {
+    font-size: 12px;
+    width: 85%;
+  }
+
+  .posterImage {
+    width: 100%;
+    height: 50vh;
+  }
+  .posterPlayButton {
+    border: none;
+    border-radius: 8px;
+    color: black;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    margin-top: 15px;
+    background-size: cover;
+  }
+}
